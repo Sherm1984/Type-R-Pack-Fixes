@@ -1,2 +1,2 @@
-[1]Atari 7800 story fix
-[2]Xbox Addon 5 Fix
+Atari 7800 story fix
+Xbox Addon 5 Fix
