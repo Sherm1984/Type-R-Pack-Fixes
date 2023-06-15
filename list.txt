@@ -1,2 +1,3 @@
 Atari 7800 story fix
 Xbox Addon 5 Fix
+Nintendo GameCube
