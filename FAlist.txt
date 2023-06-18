@@ -12,7 +12,22 @@ NEC TurboGrafx-16 1G1R
 Nintendo 64 English 1G1R
 Nintendo 64 Japan 1G1R
 Nintendo Entertainment System 1G1R
+Nintendo Family Computer Disk System 1G1R
 Nintendo Game Boy 1G1R
 Nintendo Game Boy Advance
 Nintendo Game Boy Color 1G1R
+Nintendo GameCube 1G1R
+Sega 32X
+Sega CD 1G1R
+Sega Dreamcast 1G1R
+Sega Genesis 1G1R
+Sega Mark III 1G1R
+Sega Master System 1G1R
+Sega Saturn 1G1R
+Sega SG-1000 1G1R
+SNK Neo Geo CD 1G1R
+SNK Neo Geo CD Best of Updated
+SNK Neo Geo Pocket Color
+Sony PlayStation 1G1R
 Super Famicom - Best Of
+Super Nintendo Entertainment System 1G1R
