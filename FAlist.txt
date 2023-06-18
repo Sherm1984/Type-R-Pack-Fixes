@@ -1,18 +1,18 @@
-Atari 2600 1G1R 
-Atari 5200 1G1R 
-Atari 7800 1G1R 
-Atari 7800 Best of Update 
-Atari Jaguar 1G1R 
-Atari Jaguar CD 1G1R 
-ColecoVision 1G1R 
-Game Gear 1G1R 
-MAME Control Stick 
-NEC PC Engine 1G1R 
-NEC TurboGrafx-16 1G1R 
-Nintendo 64 English 1G1R 
-Nintendo 64 Japan 1G1R 
-Nintendo Entertainment System 1G1R 
-Nintendo Game Boy 1G1R 
-Nintendo Game Boy Advance 
-Nintendo Game Boy Color 1G1R 
-Super Famicom - Best Of 
+Atari 2600 1G1R
+Atari 5200 1G1R
+Atari 7800 1G1R
+Atari 7800 Best of Update
+Atari Jaguar 1G1R
+Atari Jaguar CD 1G1R
+ColecoVision 1G1R
+Game Gear 1G1R
+MAME Control Stick
+NEC PC Engine 1G1R
+NEC TurboGrafx-16 1G1R
+Nintendo 64 English 1G1R
+Nintendo 64 Japan 1G1R
+Nintendo Entertainment System 1G1R
+Nintendo Game Boy 1G1R
+Nintendo Game Boy Advance
+Nintendo Game Boy Color 1G1R
+Super Famicom - Best Of
