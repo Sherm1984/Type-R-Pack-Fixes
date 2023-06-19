@@ -38,7 +38,6 @@ PC Games
 Pinball Arcade
 Pinball FX2
 Pinball FX3
-README
 Sega 32X
 Sega CD
 Sega Dreamcast
