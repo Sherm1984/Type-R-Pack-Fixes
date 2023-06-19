@@ -1,0 +1,34 @@
+Atari 2600
+Atari 5200
+Atari 7800
+ColecoVision
+Commodore 64
+Commodore Amiga
+NEC PC Engine SuperGrafx
+NEC PC Engine-CD
+NEC PC Engine
+NEC TurboGrafx-16
+NEC TurboGrafx-CD
+Nintendo 64
+Nintendo DS
+Nintendo Entertainment System
+Nintendo Family Computer Disk System
+Nintendo Game Boy Advance
+Nintendo Game Boy Color
+Nintendo Game Boy
+Nintendo Pokemon Mini
+Sega 32X
+Sega CD
+Sega Dreamcast
+Sega Game Gear
+Sega Genesis
+Sega Mark III
+Sega Master System
+Sega Saturn
+SG-1000
+SNK Neo Geo CD
+SNK Neo Geo Pocket Color
+Sony PlayStation
+Starpath Supercharger
+Super Famicom
+Super Nintendo Entertainment System
