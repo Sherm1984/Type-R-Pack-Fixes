@@ -9,7 +9,7 @@ Game Gear 1G1R
 MAME Control Stick
 NEC PC Engine 1G1R
 NEC TurboGrafx-16 1G1R
-Nintendo 64 English 1G1R
+Nintendo 64 1G1R
 Nintendo 64 Japan 1G1R
 Nintendo Entertainment System 1G1R
 Nintendo Family Computer Best of
