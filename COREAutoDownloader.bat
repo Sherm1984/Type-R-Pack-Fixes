@@ -9,26 +9,9 @@ ECHO EVERYONE ELSE ARE IMITATORS
 ECHO P.S FUCK KEN
 
 >NUL TIMEOUT /T 2 /NOBREAK
-goto check_update
+goto choose
 
-:check_update
-REM Check for update by downloading the latest version of the batch file
-bitsadmin /transfer "BatchUpdate" "http://yourserver.com/path/to/latest_batch.bat" "%~dp0latest_batch.bat"
 
-REM Compare the current batch file with the latest version
-FC /B "%~dp0%~nx0" "%~dp0latest_batch.bat" >NUL
-
-IF ERRORLEVEL 1 (
-    echo An update is available. Please download and install the latest version.
-    REM Additional update instructions here...
-    del "%~dp0%~nx0"  REM Delete the old batch file
-    move "%~dp0latest_batch.bat" "%~dp0%~nx0"  REM Replace it with the latest version
-    goto exit
-) else (
-    echo You have the latest version.
-    del "%~dp0latest_batch.bat"
-    goto choose
-)
 
 :choose
 cls
@@ -42,6 +25,7 @@ echo[       2. Download Fanart
 echo[       3. Update/Reset System Configs
 echo[       4. Download PC Art
 echo[       5. Apply Fix/Art Update
+echo[       6. Check For Downloader Update
 echo[
 echo[[92m===============================================================================================[0m
 echo[
@@ -55,8 +39,10 @@ if "%ACTION%"=="1" (
     set "LABEL=UpdateSystemConfigs"
 ) else if "%ACTION%"=="4" (
     set "LABEL=PCARTS"
-) else if "%ACTION%"=="5" (
+	) else if "%ACTION%"=="5" (
     set "LABEL=ApplyFixArtUpdate"
+) else if "%ACTION%"=="6" (
+    set "LABEL=BATUPDATE"
 ) else (
     echo Invalid selection. Please try again.
     goto choose
@@ -322,6 +308,24 @@ cd "..\..\"
 call fix.bat
 del fix.bat
 goto finish3
+
+:BATUPDATE
+bitsadmin /transfer "DownloadTextFile" "https://github.com/Sherm1984/Type-R-Pack-Fixes/blob/main/version.txt?raw=true" "%~dp0version.txt"
+
+:start6
+set "desiredVersion=1.2"
+set "downloadedVersion=1.1"
+for /F "usebackq tokens=1" %%V in ("%%~dp0version.txt") do (
+    set "downloadedVersion=%%V"
+    rem Process the content of the text file here
+)
+if "%downloadedVersion%" GTR "%desiredVersion%" (
+    echo Downloading new batch file...
+    bitsadmin /transfer "DownloadNewBatchFile" "https://github.com/Sherm1984/Type-R-Pack-Fixes/blob/main/COREAutoDownloader.bat?raw=true" "%~dp0vCOREAutoDownloader.bat"
+    echo New batch file downloaded.
+)
+del version.txt
+goto finish
 
 :finish
 echo Congratulations. Action completed successfully.
